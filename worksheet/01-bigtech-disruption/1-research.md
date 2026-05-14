@@ -1,185 +1,100 @@
 ---
-artifact: 1 — Tự nghiên cứu case
-bai-tap: 1 — Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)
+artifact: 1 - Tự nghiên cứu case
+bai-tap: 1 - Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)
 phase: Chọn case + tìm số liệu + nguồn
-time: 15 phút (xem deck slide 4 để biết khung giờ chính xác trong buổi)
-input: prompts/01-research-case.md
-nop-cuoi: Không — file trung gian
+nop-cuoi: Không - file trung gian
 ---
 
-# 1 — Tự nghiên cứu: tìm 1 case bị big tech AI ảnh hưởng + số liệu thật
+# 1 - Tự nghiên cứu: Chegg bị ChatGPT / Google AI Overviews disrupt
 
-Mục tiêu: bạn tự chọn 1 sản phẩm hoặc 1 công ty bị ảnh hưởng nặng sau khi big tech AI (ChatGPT, Claude, Gemini, GitHub Copilot, Microsoft Copilot...) ra mắt tính năng tương tự. Tự tìm số liệu cụ thể về case đó từ nguồn công khai. Mỗi số liệu phải có nguồn (URL + tên báo/tổ chức + ngày tháng). Lab 1 là phần cá nhân — mỗi học viên tự chọn case riêng và tự làm phần research trong repo cá nhân.
+## Bước 0 - Chọn case
 
-Lý do làm bước này: phân tích chỉ có sức nặng khi đứng trên số liệu thật. Bạn cần tự tìm ít nhất 8-10 số liệu cụ thể để có nền tảng phản biện cho 4 câu hỏi ở phase 2.
+- **Tên case**: Chegg, Inc. - nền tảng học tập trực tuyến, nổi bật với Chegg Study, Study Pack, Writing, Math và các dịch vụ giải bài / hỗ trợ học tập theo subscription.
+- **Big tech AI tạo áp lực**: OpenAI ChatGPT, sau đó là Google AI Overviews trong search.
+- **Lý do chọn**: Chegg là case rất rõ về AI disruption vì công ty niêm yết, có số liệu doanh thu/subscriber công khai, có ngày ChatGPT ra mắt, có phát biểu trực tiếp của CEO về tác động của ChatGPT, có restructuring và có phản ứng bằng sản phẩm AI CheggMate.
 
-Quy tắc: **không có số liệu = không có nhận định**. Học viên tự tìm số liệu cho case mình chọn. Mỗi nhận định phải có nguồn (URL + ngày).
+## Phần A - 4 nhóm số liệu cần tìm
 
-## Bước 0 — Chọn case (5 phút đầu)
+### Nhóm 1 - Quy mô trước và sau AI shock
 
-Trước khi tìm số liệu, bạn quyết định case nào:
+Chegg trước AI shock vẫn là một business subscription lớn trong edtech:
 
-1. Sản phẩm/công ty bạn chọn là gì?
-2. Big tech AI nào ra tính năng tương tự gây ảnh hưởng? (ChatGPT, Claude, Gemini, GitHub Copilot, Microsoft Copilot...)
-3. Vì sao bạn chọn case này? (Có số liệu công khai? Có mốc thời gian rõ? Có liên hệ với ngành bạn quan tâm?)
+- Năm 2022, Chegg đạt **767 triệu USD doanh thu** và **8,2 triệu Chegg Services subscribers**.
+- Năm 2023, sau khi ChatGPT đã ra mắt, doanh thu giảm còn **716,3 triệu USD**, subscriber còn **7,7 triệu**.
+- Năm 2024, doanh thu giảm tiếp còn **617,6 triệu USD**, subscriber còn **6,6 triệu**.
+- Năm 2025, doanh thu giảm mạnh còn **376,9 triệu USD**, giảm **39% YoY**.
+- Market cap cuối 2020 là **11,64 tỷ USD**, đến ngày 13/05/2026 chỉ còn **127,07 triệu USD**.
 
-Ghi câu trả lời ngắn vào ô dưới đây trước khi bắt đầu tìm số liệu.
+### Nhóm 2 - Mốc thời gian big tech AI ra tính năng tương tự
 
-- **Tên case**: [...]
-- **Big tech AI tạo áp lực**: [...]
-- **Lý do chọn**: [...]
+- OpenAI ra mắt ChatGPT ngày **30/11/2022**.
+- ChatGPT đạt ước tính **100 triệu monthly active users trong tháng 01/2023**, chỉ khoảng 2 tháng sau khi ra mắt.
+- Tháng 03/2023, Chegg bắt đầu thấy sinh viên quan tâm mạnh đến ChatGPT; đến earnings call Q1 2023, CEO nói ChatGPT đang ảnh hưởng đến new customer growth.
+- Google AI Overviews tiếp tục làm nghiêm trọng kênh traffic search của Chegg trong năm 2024–2025.
 
-## Quy trình 15 phút
+### Nhóm 3 - Phản ứng của Chegg sau AI shock
 
-```text
-5 phút  — Chọn case + xác định 4 nhóm số liệu cần tìm cho case của mình
-8 phút  — Tự tìm số liệu trên các nguồn chính (báo chí công nghệ, báo cáo tài chính, blog chính thức...)
-2 phút  — Rà lại bảng số liệu, đánh dấu số chưa kiểm chứng
-```
+- Ngày **17/04/2023**, Chegg công bố **CheggMate**, một AI companion xây với GPT-4 và OpenAI.
+- Tháng **06/2024**, Chegg cắt giảm **441 nhân viên**, tương đương **23%** workforce.
+- Tháng **11/2024**, Chegg tiếp tục restructuring, cắt thêm **319 nhân viên**, tương đương **21%** workforce.
+- Tháng **02/2025**, Chegg công bố strategic review và kiện Google, lập luận rằng Google AI Overviews giữ traffic trên Google thay vì đưa người dùng về Chegg.
+- Năm **2025**, Chegg tái cơ cấu thành 2 business: Chegg Skilling là growth engine, Academic Services là legacy cash-flow business.
 
----
+### Nhóm 4 - Đối thủ AI thay thế
 
-## Phần A — Các nhóm số liệu cần tìm
+- **ChatGPT** thay thế một phần use case cốt lõi của Chegg: hỏi đáp bài tập, giải thích khái niệm, viết/kiểm tra bài, tạo câu trả lời theo ngữ cảnh.
+- **Google AI Overviews** thay thế kênh discovery: người dùng tìm câu hỏi trên Google và nhận câu trả lời AI ngay trên SERP, không cần click vào Chegg.
+- **ChatGPT Plus** có giá **20 USD/tháng**, gần bằng Chegg Study Pack **19,95 USD/tháng**, nhưng phạm vi sử dụng rộng hơn: học tập, viết, code, research, file, hình ảnh.
+- **Khan Academy/Khanmigo, Quizlet AI, Photomath, Socratic, Perplexity** là các đối thủ/alternatives trong học tập, nhưng ChatGPT và Google AIO là hai lực ép lớn nhất vì có distribution cực mạnh.
 
-Bạn tự tìm đủ 4 nhóm số liệu dưới đây cho case mình chọn. Tên nhóm giữ nguyên — nội dung cụ thể bạn tự điền theo case.
+## Phần B - Bảng tổng hợp số liệu
 
-### Nhóm 1 — Quy mô trước & sau (cổ phiếu, doanh thu, người dùng)
+### Bảng số liệu case Chegg
 
-Tuỳ case, chọn các chỉ số phù hợp:
+| # | Số liệu | Giá trị | Ngày / thời kỳ | Nguồn (URL) | Đã kiểm chứng? |
+|---|---|---:|---|---|---|
+| S-01 | Chegg Services subscribers trước AI shock | 8,2 triệu | FY2022 | Chegg IR, FY2022 results, 06/02/2023: https://investor.chegg.com/Press-Releases/press-release-details/2023/Chegg-Reports-2022-Earnings-and-Gives-2023-Guidance/default.aspx | Có |
+| S-02 | Doanh thu trước AI shock | 767 triệu USD | FY2022 | Chegg IR, FY2022 results, 06/02/2023 | Có |
+| S-03 | ChatGPT ra mắt công khai | Research release ngày 30/11/2022 | 30/11/2022 | OpenAI Blog: https://openai.com/blog/chatgpt/ | Có |
+| S-04 | ChatGPT đạt 100 triệu MAU | Ước tính 100 triệu monthly active users | 01/2023 | Ars Technica/Reuters/UBS, 01/02/2023: https://arstechnica.com/information-technology/2023/02/chatgpt-sets-record-for-fastest-growing-user-base-in-history-says-report/ | Có |
+| S-05 | CEO Chegg xác nhận ChatGPT ảnh hưởng new customer growth | ChatGPT bắt đầu ảnh hưởng từ tháng 03/2023 | Q1 2023 earnings | CNBC, 02/05/2023: https://www.cnbc.com/2023/05/02/chegg-drops-more-than-40percent-after-saying-chatgpt-is-killing-its-business.html | Có |
+| S-06 | Stock phản ứng ngày sau cảnh báo ChatGPT | Cổ phiếu đóng cửa giảm 48,41% xuống 9,08 USD | 02/05/2023 | CNBC, 02/05/2023 | Có |
+| S-07 | CheggMate được công bố | AI companion built with GPT-4; early access tháng 05/2023 | 17/04/2023 | Chegg IR: https://investor.chegg.com/Press-Releases/press-release-details/2023/Chegg-announces-CheggMate-the-new-AI-companion-built-with-GPT-4/default.aspx | Có |
+| S-08 | Subscribers FY2023 | 7,7 triệu, giảm 6% YoY | FY2023 | Chegg IR, FY2023 results, 05/02/2024: https://investor.chegg.com/Press-Releases/press-release-details/2024/Chegg-Reports-2023-Fourth-Quarter-and-Full-Year-Financial-Results/default.aspx | Có |
+| S-09 | Doanh thu FY2023 | 716,3 triệu USD, giảm 7% YoY | FY2023 | Chegg IR, FY2023 results | Có |
+| S-10 | Subscribers FY2024 | 6,6 triệu, giảm 14% YoY | FY2024 | Chegg IR, FY2024 results, 24/02/2025: https://investor.chegg.com/Press-Releases/press-release-details/2025/Chegg-Reports-2024-Fourth-Quarter-and-Full-Year-Financial-Results/default.aspx | Có |
+| S-11 | Doanh thu FY2024 | 617,6 triệu USD, giảm 14% YoY | FY2024 | Chegg IR, FY2024 results | Có |
+| S-12 | Q4 2024 subscribers | 3,6 triệu, giảm 21% YoY | Q4 2024 | Chegg IR, FY2024 results | Có |
+| S-13 | Non-subscriber traffic | Giảm 49% YoY trong 01/2025; Q2 2024 mới giảm 8% | 01/2025 | Chegg IR, FY2024 results prepared remarks | Có |
+| S-14 | Restructuring tháng 06/2024 | Cắt 441 nhân viên, 23% global workforce | 17/06/2024 | Chegg IR: https://investor.chegg.com/Press-Releases/press-release-details/2024/Chegg-Announces-Restructuring-Plan-and-New-Vision-for-Growth/default.aspx | Có |
+| S-15 | Restructuring tháng 11/2024 | Cắt thêm 319 nhân viên, 21% công ty | Q3 2024 | Chegg IR, Q3 2024 earnings: https://investor.chegg.com/Press-Releases/press-release-details/2024/Chegg-Reports-2024-Third-Quarter-Earnings/default.aspx | Có |
+| S-16 | Doanh thu FY2025 | 376,9 triệu USD, giảm 39% YoY | FY2025 | Chegg IR, FY2025 results, 09/02/2026: https://investor.chegg.com/Press-Releases/press-release-details/2026/Chegg-Reports-2025-Fourth-Quarter-and-Full-Year-Financial-Results/default.aspx | Có |
+| S-17 | Q4 2025 revenue | 72,7 triệu USD, giảm 49% YoY | Q4 2025 | Chegg IR, FY2025 results | Có |
+| S-18 | Q4 2025 Academic Services revenue | 54,94 triệu USD; Q4 2024 là 127,52 triệu USD | Q4 2025 vs Q4 2024 | Chegg IR, FY2025 quarterly data | Có |
+| S-19 | Market cap hiện tại | 127,07 triệu USD | 13/05/2026 | StockAnalysis: https://stockanalysis.com/stocks/chgg/market-cap/ | Có |
+| S-20 | Market cap đỉnh gần đây | 11,64 tỷ USD cuối 2020; 4,45 tỷ USD cuối 2021; 3,17 tỷ USD cuối 2022 | 2020–2022 | StockAnalysis market cap history | Có |
+| S-21 | Giá Chegg Study Pack | 19,95 USD/tháng | 2025 crawl | Chegg Study page: https://www.chegg.com/study | Có |
+| S-22 | Giá ChatGPT Plus | 20 USD/tháng | 2026 | OpenAI Help Center: https://help.openai.com/en/articles/6950777-chatgpt-plus | Có |
 
-- Cổ phiếu / vốn hoá: đỉnh cao + hiện tại (nếu là công ty niêm yết).
-- Doanh thu: trước khi big tech AI ra tính năng + sau đó (so sánh quý / năm).
-- Người dùng trả tiền / hoạt động: đỉnh + hiện tại.
-- Tỷ lệ giảm tổng cộng (%).
+## Phần C - Kiểm chứng nguồn
 
-Nguồn nên dùng:
+- [x] Mọi số liệu có URL nguồn cụ thể.
+- [x] Đã ưu tiên nguồn gốc: Chegg Investor Relations, OpenAI, SEC/financial data.
+- [x] Số liệu quan trọng về doanh thu/subscriber đều lấy từ Chegg IR.
+- [x] Số liệu market cap lấy từ StockAnalysis/CompaniesMarketCap, chỉ dùng để minh hoạ định giá thị trường.
+- [x] Số liệu adoption của ChatGPT là ước tính từ UBS/Similarweb được Reuters/Ars Technica đưa lại, nên ghi rõ là ước tính.
 
-- Yahoo Finance, MacroTrends, Google Finance — cho công ty niêm yết.
-- Báo cáo quý / 10-K filing (Investor Relations của chính công ty).
-- Báo công nghệ: TechCrunch, CNBC, Bloomberg, Reuters, FT.
+## Phần D - Phát hiện ban đầu
 
-### Nhóm 2 — Mốc thời gian big tech AI ra tính năng tương tự
+- Chegg không chỉ bị "giảm sentiment"; subscriber và revenue đều giảm thật: từ 8,2 triệu subscribers FY2022 xuống 6,6 triệu FY2024, rồi Q4 2024 chỉ còn 3,6 triệu subscribers.
+- ChatGPT không cần copy toàn bộ Chegg; chỉ cần thay đổi expectation của sinh viên từ "tìm đáp án trong database" sang "hỏi một AI tutor trả lời ngay" là đủ làm hỏng PMF.
+- Chegg phản ứng rất nhanh trên mặt thông báo: CheggMate công bố 17/04/2023, khoảng 4,5 tháng sau ChatGPT. Nhưng phản ứng sản phẩm không đủ để chặn suy giảm distribution và subscriber.
+- Google AI Overviews làm tăng áp lực lần 2: traffic non-subscriber giảm 49% YoY trong 01/2025, biến SEO - một kênh acquisition quan trọng - thành điểm yếu.
+- Moat nội dung 100+ triệu pieces và 150.000 subject matter experts vẫn có giá trị, nhưng bị commoditize khi LLM có thể tạo câu trả lời từ prompt và search engine giữ người dùng ở ngay trang kết quả.
 
-Tìm:
+## Phần E - Câu hỏi mở cho phần phân tích
 
-- Tính năng AI cụ thể của big tech (vd: ChatGPT, Gemini Code Assist, Copilot, …).
-- Ngày ra mắt + ngày mở rộng người dùng.
-- Tốc độ phổ cập của tính năng đó (số người dùng sau 6 tháng, 1 năm).
-- Mức độ trùng lặp với sản phẩm của case bạn chọn (tính năng nào trùng?).
-
-Nguồn nên dùng:
-
-- Blog chính thức của big tech (OpenAI blog, Anthropic blog, Google blog, GitHub blog).
-- Báo công nghệ.
-
-### Nhóm 3 — Phản ứng của sản phẩm / công ty sau khi big tech AI ra mắt
-
-Tìm:
-
-- Sản phẩm AI / tính năng mới mà công ty đã ra: tên + ngày ra mắt.
-- Đối tác AI: dùng model nào dưới mui xe.
-- Thời gian từ khi big tech AI ra mắt đến khi công ty này có sản phẩm AI: ___ tháng.
-- Đợt sa thải / cắt giảm / tái cơ cấu (nếu có): số người + tỷ lệ + ngày.
-- Thông báo delisting / mua bán sáp nhập / đóng cửa (nếu có).
-
-Nguồn nên dùng:
-
-- Báo cáo quý của công ty.
-- Báo công nghệ và báo kinh doanh.
-- TechCrunch, Bloomberg, CNBC.
-
-### Nhóm 4 — Đối thủ AI thay thế
-
-Tìm:
-
-- Big tech AI thay thế sản phẩm này ở use case cụ thể nào?
-- Có đối thủ startup khác cũng đang thay thế không (tên + ngày ra mắt + giá)?
-- So sánh giá: sản phẩm gốc vs big tech AI vs startup khác (giá/tháng).
-
-Nguồn nên dùng:
-
-- Trang giá chính thức của từng sản phẩm.
-- Báo công nghệ.
-
----
-
-## Phần B — Bảng tổng hợp số liệu
-
-Sau khi tìm đủ 4 nhóm số liệu, bạn gộp vào bảng dưới đây. Mục tiêu: tối thiểu 8-10 số liệu có nguồn cụ thể.
-
-### Bảng số liệu case [tên case]
-
-| # | Số liệu | Giá trị | Ngày / Thời kỳ | Nguồn (URL) | Đã kiểm chứng? |
-|---|---|---|---|---|---|
-| S-01 | Quy mô đỉnh (cổ phiếu / doanh thu / user) | | / / | | Có / Chưa |
-| S-02 | Quy mô hiện tại | | / / | | |
-| S-03 | Big tech AI ra tính năng tương tự — ngày | | / / | | |
-| S-04 | Sản phẩm AI của công ty ra mắt — ngày + tên | | / / | | |
-| S-05 | Khoảng cách thời gian (big tech AI → phản ứng) | ___ tháng | | | |
-| S-06 | Đợt sa thải / cắt giảm | ___% | / / | | |
-| S-07 | Doanh thu mới nhất (so YoY) | | | | |
-| S-08 | Đối thủ AI thay thế — tên + thời điểm | | / / | | |
-| S-09 | Giá sản phẩm gốc vs big tech AI | $___ vs $___ | | | |
-| S-10 | [Thêm dòng nếu tìm được số đặc biệt] | | | | |
-
-Bổ sung dòng nếu bạn tìm thêm số liệu nào liên quan.
-
----
-
-## Phần C — Kiểm chứng nguồn
-
-Trước khi chuyển sang phân tích, rà lại từng số liệu:
-
-### Checklist kiểm chứng
-
-- [ ] Mỗi số liệu có URL nguồn cụ thể.
-- [ ] URL mở được, không 404.
-- [ ] Nội dung URL có khớp với số liệu mình ghi (ít nhất là cùng đơn vị, cùng năm).
-- [ ] Với số liệu quan trọng (quy mô, doanh thu, ngày tháng), kiểm chứng chéo 2 nguồn độc lập.
-- [ ] Nếu chưa chắc, đánh dấu `[CHƯA KIỂM CHỨNG]` thay vì xoá.
-
-### Quy tắc loại nguồn
-
-| Mức ưu tiên | Loại nguồn | Ví dụ |
-|---|---|---|
-| 1 — Nguồn gốc | Báo cáo tài chính, thông báo chính thức, hồ sơ pháp lý | 10-K filings, SEC filings, blog công ty |
-| 2 — Báo lớn | Báo chí công nghệ/kinh doanh uy tín | CNBC, Bloomberg, TechCrunch, Reuters, FT |
-| 3 — Báo cáo phân tích | Báo cáo tài chính độc lập | MacroTrends, Yahoo Finance, Google Finance |
-| 4 — Tránh dùng | Bài đăng cá nhân, blog không nguồn, mạng xã hội | Reddit posts, Medium articles không có citation |
-
-### Cảnh báo
-
-AI có thể bịa cả nguồn — đặc biệt khi bạn hỏi AI số liệu thay vì tự tìm. Nếu dùng AI để gợi ý nơi tìm, vẫn phải tự mở URL và xác minh.
-
----
-
-## Phần D — Phát hiện ban đầu
-
-Sau khi có số liệu, ghi nhanh 3-5 phát hiện đáng chú ý nhất. Đây chưa phải nhận định cuối — chỉ là quan sát.
-
-Ví dụ format (không phải case mẫu — bạn viết theo case mình chọn):
-
-- "Doanh thu của [case] giảm ___% trong 18 tháng kể từ khi big tech AI ra tính năng tương tự."
-- "[Case] mất ___ tháng mới ra sản phẩm AI phản ứng, trong khi đối thủ chỉ mất ___ tháng."
-- "Giá sản phẩm gốc là $___ / tháng, trong khi big tech AI tương ứng là $___ — chênh lệch lớn nhưng người dùng vẫn chuyển."
-
-Phát hiện của bạn:
-
-- [...]
-- [...]
-- [...]
-- [...]
-- [...]
-
----
-
-## Phần E — Câu hỏi mở (cho phân tích Phần 2)
-
-Trước khi chuyển sang `2-analysis.md`, bạn liệt kê các câu hỏi cần đào sâu:
-
-- Câu hỏi 1: [...]
-- Câu hỏi 2: [...]
-- Câu hỏi 3: [...]
-- Câu hỏi 4: [...]
-
-Sau bước này, chuyển sang `2-analysis.md` để vận dụng Lens 1 (Customer Expectations + Four Fits) vào case bạn chọn.
+- ChatGPT phá vỡ fit nào đầu tiên của Chegg: Product-Market Fit hay Product-Channel Fit?
+- Vì sao CheggMate ra khá nhanh nhưng không đảo ngược được xu hướng subscriber/revenue?
+- Moat "proprietary content" của Chegg còn phòng thủ được gì khi người dùng ưu tiên câu trả lời nhanh/rẻ/rộng?
+- Chegg có nên tiếp tục cạnh tranh B2C với ChatGPT/Google, hay chuyển sang B2B/institution/skilling?
