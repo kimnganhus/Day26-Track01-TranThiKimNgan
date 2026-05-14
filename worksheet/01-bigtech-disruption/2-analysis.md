@@ -1,305 +1,177 @@
 ---
-artifact: 2 — Phân tích case theo 4 câu hỏi
-bai-tap: 1 — Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)
+artifact: 2 - Phân tích case theo 4 câu hỏi
+bai-tap: 1 - Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)
 phase: Vận dụng Lens 1 (Customer Expectations + Four Fits)
-time: 15 phút (xem deck slide 4 để biết khung giờ chính xác trong buổi)
-input: 1-research.md + prompts/02-four-fits-analysis.md
-nop-cuoi: Không — file trung gian
+nop-cuoi: Không - file trung gian
 ---
 
-# 2 — Phân tích case: Phần A (4 câu hỏi chiến lược) + Phần B (5 chiều phân tích)
+# 2 - Phân tích case Chegg: Phần A + Phần B
 
-Mục tiêu: bạn trả lời 4 câu hỏi chiến lược (Phần A) và bổ sung 5 chiều phân tích định lượng (Phần B) cho case mình chọn. Mọi nhận định lấy từ số liệu đã tìm ở `1-research.md` làm bằng chứng. Lab 1 là phần cá nhân — phân tích trong file này là của riêng học viên.
-
-Lý do làm bước này: số liệu thô chưa phải nhận định. Phần A vận dụng Lens 1 (7 Customer Expectation Shifts + Four Fits + Big Squeeze) để giải thích **vì sao** case này sụp đổ. Phần B đào sâu vào quy mô tệp người dùng, tốc độ tăng trưởng, doanh thu, cấu trúc moat và data flywheel — những chiều quyết định khả năng phòng thủ của sản phẩm.
-
-Quy tắc: mỗi câu trả lời phải tham chiếu ít nhất 2 số liệu từ `1-research.md`. Phần B yêu cầu số liệu định lượng cụ thể (kèm nguồn) — nếu không tìm được, ghi rõ "không có nguồn công khai".
-
-## Quy trình 15 phút
-
-```text
-3 phút  — Đọc lại 1-research.md
-7 phút  — Phần A: trả lời 4 câu hỏi chiến lược
-4 phút  — Phần B: điền 5 chiều phân tích định lượng
-1 phút  — Rà lại: mỗi câu có bằng chứng chưa?
-```
+Nguồn số liệu chính nằm trong `1-research.md`, ký hiệu S-01 đến S-22.
 
 ---
 
-# Phần A — 4 câu hỏi chiến lược
+# Phần A - 4 câu hỏi chiến lược
 
----
+## Câu hỏi 1 - Trước AI, Chegg hoạt động dựa trên giả định gì?
 
-## Câu hỏi 1 — Trước AI, sản phẩm hoạt động dựa trên giả định gì?
+Trước ChatGPT, Chegg hoạt động dựa trên 5 giả định:
 
-Câu hỏi phụ:
+- **Người dùng**: sinh viên phổ thông/college cần giải bài, kiểm tra đáp án, viết bài, giải toán và ôn thi.
+- **Vấn đề cần giải**: bài tập và câu hỏi học tập có thể được giải bằng kho nội dung có sẵn, expert answers và các công cụ học tập theo môn.
+- **Giá trị sản phẩm**: "on-demand homework help" - người dùng trả phí hàng tháng để truy cập đáp án, hướng dẫn từng bước và một số câu hỏi gửi expert.
+- **Mô hình kinh doanh**: subscription B2C, tiêu biểu Chegg Study Pack 19,95 USD/tháng (S-21).
+- **Lý do mô hình hoạt động**: Chegg có thương hiệu mạnh, SEO/distribution lớn, kho nội dung học tập lớn, và subscription economics tốt. Năm 2022 Chegg đạt 767 triệu USD revenue và 8,2 triệu subscribers (S-01, S-02).
 
-- Người dùng sản phẩm là ai? (sinh viên, lập trình viên, content creator, doanh nghiệp...)
-- Họ tìm đến sản phẩm vì điều gì? (giải bài tập, viết code, soạn nội dung, ...)
-- Sản phẩm cung cấp giá trị gì cho họ? (tài liệu, đáp án, công cụ, mạng lưới chuyên gia...)
-- Mô hình kinh doanh là gì? (gói tháng, gói năm, trả lẻ, freemium...)
-- Tại sao mô hình này hoạt động được nhiều năm?
+**Bằng chứng**:
 
-### Trả lời
+- S-01/S-02: FY2022 có 8,2 triệu subscribers và 767 triệu USD revenue.
+- S-21: Chegg Study Pack 19,95 USD/tháng, cho thấy model thu phí theo subscription.
+- S-20: market cap cuối 2020 đạt 11,64 tỷ USD, phản ánh kỳ vọng thị trường rất cao trước AI shock.
 
-Trước khi big tech AI ra tính năng tương tự, sản phẩm hoạt động dựa trên các giả định sau:
+## Câu hỏi 2 - Kỳ vọng người dùng đã thay đổi như thế nào?
 
-- **Người dùng**: [...]
-- **Vấn đề người dùng cần giải**: [...]
-- **Giá trị sản phẩm cung cấp**: [...]
-- **Mô hình kinh doanh**: [...]
-- **Vì sao mô hình này hoạt động**:
-  - Lý do 1: [...]
-  - Lý do 2: [...]
-  - Lý do 3: [...]
+7 Customer Expectation Shifts liên quan nhất với Chegg:
 
-**Bằng chứng** (tham chiếu số liệu từ `1-research.md`):
+1. **Do the work for me**: trước đây sinh viên tìm đáp án/giải thích trong Chegg; sau ChatGPT, họ kỳ vọng AI làm toàn bộ quy trình hỏi-đáp-giải thích.
+2. **Custom made for me**: Chegg chủ yếu đưa đáp án có sẵn; ChatGPT có thể điều chỉnh giải thích theo trình độ, ngôn ngữ, môn học, cách học.
+3. **Expect it now**: Chegg có kho đáp án và expert Q&A, nhưng ChatGPT trả lời tức thì trong một interface hỏi-đáp.
+4. **Pay for output, not seat**: sinh viên so sánh giá trị thực nhận. ChatGPT free/Plus 20 USD/tháng (S-22) có thể dùng cho học tập, viết, code, research; Chegg Study Pack 19,95 USD/tháng (S-21) hẹp hơn về use case.
+5. **Interface adapts to me**: ChatGPT là conversational interface; Chegg ban đầu là search/database interface, sau đó mới phải xoay sang CheggMate (S-07).
 
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
-
----
-
-## Câu hỏi 2 — Kỳ vọng của người dùng đã thay đổi như thế nào? (liên hệ 7 dịch chuyển)
-
-Câu hỏi phụ:
-
-- Trong 7 Customer Expectation Shifts đã học ở Lens 1, shift nào áp dụng vào case bạn chọn rõ nhất?
-- Trước đây: người dùng kỳ vọng gì từ sản phẩm này?
-- Sau khi big tech AI ra tính năng tương tự: người dùng kỳ vọng gì khác?
-- So sánh hành vi cụ thể: trước đây người dùng làm thế nào, giờ làm thế nào?
-
-### Trả lời
-
-7 Customer Expectation Shifts (nhắc lại):
-
-1. Do the work for me (tool → teammate)
-2. Custom made for me
-3. Busy work done for me
-4. Pay for output (not seat)
-5. Expect it now (instant)
-6. Interface adapts to me
-7. Tool sees what I'm doing (context-aware)
-
-Trong case bạn chọn, các shift quan trọng nhất là:
-
-- **Shift số ___**: [tên shift] — vì [...]
-- **Shift số ___**: [tên shift] — vì [...]
-
-So sánh kỳ vọng cũ và mới của người dùng:
-
-| Trước khi big tech AI ra tính năng tương tự (kỳ vọng cũ) | Sau khi big tech AI ra tính năng tương tự (kỳ vọng mới) |
+| Kỳ vọng cũ với Chegg | Kỳ vọng mới sau ChatGPT / Google AIO |
 |---|---|
-| [...] | [...] |
-| [...] | [...] |
-| [...] | [...] |
-| [...] | [...] |
+| Tìm câu hỏi tương tự trong database | Hỏi một câu riêng và nhận câu trả lời riêng |
+| Trả phí cho kho đáp án học tập | Dùng AI miễn phí/20 USD cho nhiều nhu cầu học và làm việc |
+| Click từ Google vào Chegg để xem đáp án | Xem tóm tắt AI ngay trên Google hoặc hỏi ChatGPT |
+| Đáp án là nội dung tĩnh | Đáp án là cuộc hỏi-đáp có thể tiếp tục hỏi lại |
 
 **Bằng chứng**:
 
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
+- S-03/S-04: ChatGPT ra mắt 30/11/2022 và đạt ước tính 100 triệu MAU trong 01/2023.
+- S-05/S-06: CEO Chegg xác nhận ChatGPT ảnh hưởng new customer growth; stock giảm 48,41% ngày 02/05/2023.
+- S-13: non-subscriber traffic giảm 49% YoY trong 01/2025 sau Google AIO.
 
----
+## Câu hỏi 3 - Giả định nào của Chegg không còn đúng? Fit nào vỡ?
 
-## Câu hỏi 3 — Giả định nào của sản phẩm đã không còn đúng? (dẫn số liệu cụ thể)
+### Four Fits trước AI
 
-Câu hỏi phụ:
+- **Product-Market Fit**: sinh viên cần homework help nhanh; Chegg có kho đáp án và expert support.
+- **Product-Channel Fit**: người dùng tìm bài tập trên Google, click vào Chegg, rồi convert thành subscriber.
+- **Channel-Model Fit**: SEO + paid subscription phù hợp vì traffic có ý định học tập cao.
+- **Model-Market Fit**: subscription 15,95–19,95 USD/tháng chấp nhận được vì Chegg là công cụ học tập chuyên biệt.
 
-- Trong khung Four Fits (Market / Product / Channel / Model), Fit nào vỡ trước tiên?
-- Fit nào vỡ sau đó như hệ quả?
-- Dùng số liệu cụ thể để chứng minh từng Fit đã vỡ.
+### Fit collapse sau ChatGPT / Google AIO
 
-### Trả lời
+1. **Product-Market Fit vỡ đầu tiên**: ChatGPT làm thay đổi định nghĩa "homework help". Thị trường không chỉ muốn đáp án có sẵn, mà muốn AI tutor hỏi-đáp cá nhân hoá. Bằng chứng: ChatGPT đạt 100 triệu MAU trong 2 tháng (S-04), Chegg thừa nhận ChatGPT ảnh hưởng new customer growth từ tháng 03/2023 (S-05).
+2. **Product-Channel Fit vỡ tiếp theo**: Google AI Overviews giữ người dùng trên search page. Bằng chứng: non-subscriber traffic của Chegg giảm 49% YoY trong 01/2025, từ mức giảm 8% trong Q2 2024 (S-13).
+3. **Channel-Model Fit bị ép**: khi traffic đầu vào giảm, subscription funnel không còn đủ mạnh. Bằng chứng: Q4 2024 subscribers còn 3,6 triệu, giảm 21% YoY (S-12); Q4 2025 revenue còn 72,7 triệu USD, giảm 49% YoY (S-17).
+4. **Model-Market Fit suy yếu**: 19,95 USD/tháng cho Chegg Study Pack bị so sánh với ChatGPT Plus 20 USD/tháng có use case rộng hơn (S-21, S-22). Doanh thu FY2025 còn 376,9 triệu USD, giảm 39% YoY (S-16).
 
-Khung Four Fits:
+### Tốc độ Fit Collapse
 
-```text
-Market ←—Product Market Fit—→ Product
-  ↕                            ↕
-Model ←—Channel Model Fit—→ Channel
-```
+- ChatGPT ra mắt 30/11/2022; đến 02/05/2023 Chegg đã cảnh báo tác động và stock giảm 48,41% trong một ngày. Fit collapse về investor confidence diễn ra trong khoảng **5 tháng**.
+- Từ FY2022 đến FY2025, revenue giảm từ 767 triệu USD xuống 376,9 triệu USD, tức giảm khoảng **51% trong 3 năm** (S-02, S-16).
+- Market cap từ 3,17 tỷ USD cuối 2022 xuống 127,07 triệu USD ngày 13/05/2026, giảm khoảng **96%** (S-19, S-20).
 
-Bốn Fit của sản phẩm trước AI:
+## Câu hỏi 4 - Chegg có thể cứu vãn? Hay đã quá muộn?
 
-- **Product Market Fit**: sản phẩm giải đúng vấn đề của người dùng (cụ thể: [...]).
-- **Product Channel Fit**: kênh phân phối ([...]) đưa người dùng vào sản phẩm.
-- **Channel Model Fit**: mô hình kinh doanh ([...]) phù hợp với kênh phân phối.
-- **Model Market Fit**: mô hình kinh doanh phù hợp với thị trường ([...]).
+**Câu trả lời**: Chegg có thể cứu một phần, nhưng khó quay lại vị thế B2C homework-help như trước. Hướng khả thi hơn là thu hẹp Academic Services thành cash-flow business, đồng thời đẩy mạnh skilling/B2B/institution.
 
-Sau khi big tech AI ra tính năng tương tự, các Fit đã vỡ theo trình tự:
-
-1. **Fit vỡ đầu tiên**: [PMF / PCF / CMF / MMF] — vì [...]
-   - Bằng chứng: [Số liệu S-__]: [...]
-2. **Fit vỡ thứ hai**: [...] — vì [...]
-   - Bằng chứng: [Số liệu S-__]: [...]
-3. **Fit vỡ thứ ba**: [...] — vì [...]
-4. **Fit vỡ thứ tư**: [...] — vì [...]
-
-Tốc độ vỡ Fit (Fit Collapse):
-
-- Từ khi big tech AI ra tính năng tương tự đến khi sản phẩm mất 50% người dùng/doanh thu: ___ tháng.
-- So sánh với pre-AI: tốc độ tương tự trong ngành thường mất ___ năm.
-- Kết luận: case này [đã / chưa] trải qua **Fit Collapse**.
-
-**Bằng chứng**:
-
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
-
----
-
-## Câu hỏi 4 — Sản phẩm có thể cứu vãn? Hay đã quá muộn? (ý kiến + lý lẽ + số liệu)
-
-Câu hỏi phụ:
-
-- Có đối thủ nào trong cùng ngành phản ứng tốt hơn không? Họ đã làm khác gì?
-- Nếu sản phẩm phản ứng nhanh hơn (vd: trong vòng 6 tháng sau khi big tech AI ra mắt), có thể giữ được không?
-- Mô hình kinh doanh nào còn khả thi cho sản phẩm này? (chuyển sang B2B? niche khác? mua lại sản phẩm AI?)
-- Vai trò của Big Squeeze (3 lực nén) trong việc này?
-
-### Trả lời
-
-So sánh phản ứng của case bạn chọn với đối thủ phản ứng tốt hơn:
-
-| Yếu tố | Case bạn chọn | Đối thủ phản ứng tốt hơn |
+| Yếu tố | Chegg | Đối thủ / alternative phản ứng tốt hơn |
 |---|---|---|
-| Đối tác AI | [...] | [...] |
-| Thời gian ra mắt sản phẩm AI | ___ tháng | ___ tháng |
-| Giá sản phẩm AI | $___ | $___ |
-| Tích hợp với sản phẩm cũ | [...] | [...] |
-| Mô hình kinh doanh | [...] | [...] |
+| AI product | CheggMate công bố 17/04/2023, built with GPT-4 | ChatGPT đã có sẵn từ 30/11/2022 và tăng trưởng cực nhanh |
+| Distribution | Phụ thuộc nhiều vào search/SEO | Google AIO nằm ngay trên SERP; ChatGPT có destination app riêng |
+| Giá | Chegg Study Pack 19,95 USD/tháng | ChatGPT Plus 20 USD/tháng, free tier vẫn có |
+| Moat | Nội dung học tập độc quyền + experts | LLM + search có thể tạo/gom câu trả lời tức thì |
+| Kết quả | FY2025 revenue giảm 39% YoY | AI platforms tiếp tục mở rộng use case học tập |
 
-Big Squeeze trên case bạn chọn (3 lực nén):
+### Big Squeeze trên Chegg
 
-- **Lực 1 — Doanh nghiệp lớn sao chép**: [big tech AI nào? Google, Microsoft, Meta?]
-  - Cụ thể: [...]
-- **Lực 2 — Startup khác xây nhanh hơn**: [startup nào trong cùng ngành xây sản phẩm AI nhanh hơn?]
-  - Cụ thể: [...]
-- **Lực 3 — Platform AI gom người dùng**: [ChatGPT, Claude, Gemini có trở thành điểm đến mặc định không?]
-  - Cụ thể: [...]
+- **Lực 1 - Doanh nghiệp lớn sao chép/bao phủ use case**: OpenAI ChatGPT và Google AIO giải quyết trực tiếp nhu cầu hỏi-đáp học tập (S-03, S-13).
+- **Lực 2 - Startup/sản phẩm khác xây nhanh hơn**: các AI study tools như Quizlet AI, Khanmigo, Photomath, Perplexity cũng tấn công các micro-use-case của Chegg.
+- **Lực 3 - Platform AI gom người dùng**: ChatGPT trở thành điểm đến mặc định cho câu hỏi học tập, trong khi Google AIO cắt bớt click về Chegg.
 
-Đánh giá của bạn:
+**Chegg đáng lẽ phải làm khác trong 6 tháng đầu**:
 
-- **Sản phẩm có cứu vãn được không?**: [Có / Không / Có nhưng cần ___]
-- **Lý do**:
-  - Lý do 1: [...]
-  - Lý do 2: [...]
-  - Lý do 3: [...]
-- **Điều sản phẩm đáng lẽ phải làm khác** (trong 6 tháng đầu sau khi big tech AI ra mắt):
-  - [...]
-  - [...]
-  - [...]
-
-**Bằng chứng**:
-
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
+- Chuyển CheggMate từ beta/feature thành trải nghiệm default của Chegg Study ngay trong back-to-school 2023.
+- Định vị lại Chegg là "verified learning coach" thay vì "answer database", tập trung trust, giải thích từng bước, practice và exam prep.
+- Giảm phụ thuộc SEO sớm hơn, đẩy B2B/institution, partnerships và student community channels.
 
 ---
 
----
+# Phần B - 5 chiều phân tích định lượng
 
-# Phần B — 5 chiều phân tích định lượng
+## B1 - User base
 
-Phần A trả lời "vì sao". Phần B trả lời "lớn cỡ nào, đi nhanh đến đâu, dựa vào hào nào". Mỗi mục yêu cầu số liệu cụ thể; nếu không có nguồn công khai, ghi rõ "không có nguồn công khai" thay vì để trống.
+| Chỉ số | Trước AI shock | Sau AI shock | Nguồn |
+|---|---:|---:|---|
+| Paid / Chegg Services subscribers | 8,2 triệu FY2022 | 6,6 triệu FY2024; Q4 2024 3,6 triệu | S-01, S-10, S-12 |
+| Free users | Không công bố trực tiếp | Không công bố trực tiếp; non-subscriber traffic giảm 49% YoY trong 01/2025 | S-13 |
+| MAU | Không công bố | Không công bố | Ghi rõ: không có nguồn công khai |
+| DAU | Không công bố | Không công bố | Ghi rõ: không có nguồn công khai |
 
-## B1 — User base (số lượng người dùng)
+**Nhận định**: Tập subscriber trả phí là dấu hiệu rõ nhất: 8,2 triệu FY2022 xuống 6,6 triệu FY2024. Tập acquisition/free traffic còn nguy hiểm hơn vì non-subscriber traffic giảm 49% YoY trong 01/2025, làm pipeline subscriber mới bị hút rỗng.
 
-So sánh quy mô tệp người dùng trước và sau khi big tech AI ra tính năng tương tự. Chọn các chỉ số phù hợp với case (paid subscribers / free users / MAU / DAU / registered accounts).
+## B2 - Tốc độ tăng trưởng
 
-| Chỉ số | Trước AI shock | Sau AI shock | Nguồn (URL · ngày) |
-|---|---|---|---|
-| Người dùng trả tiền (paid) | | | |
-| Người dùng miễn phí (free) | | | |
-| MAU (monthly active) | | | |
-| DAU (daily active) | | | |
+| Giai đoạn | Tốc độ | Nguồn |
+|---|---:|---|
+| Trước AI shock | FY2022 revenue 767 triệu USD; Chegg Services subscriber 8,2 triệu | S-01, S-02 |
+| Sau AI shock năm đầu | FY2023 revenue giảm 7%, subscriber giảm 6% | S-08, S-09 |
+| Sau AI shock kéo dài | FY2024 revenue giảm 14%, subscriber giảm 14% | S-10, S-11 |
+| Mới nhất | FY2025 revenue giảm 39%; Q4 2025 revenue giảm 49% YoY | S-16, S-17 |
 
-Nhận định 1-2 câu: tệp người dùng nào sụt nhanh nhất, tệp nào còn giữ được?
+**Nhận định**: Chegg không chỉ chậm lại; nó đã quay đầu thành suy giảm liên tiếp. Tốc độ giảm tăng dần: FY2023 -7%, FY2024 -14%, FY2025 -39%, cho thấy AI shock ban đầu chuyển thành structural pressure.
 
-- [...]
+## B3 - Doanh thu / valuation
 
-## B2 — Tốc độ tăng trưởng
+| Chỉ số | Trước AI shock | Sau AI shock | Nguồn |
+|---|---:|---:|---|
+| Annual revenue | 767 triệu USD FY2022 | 376,9 triệu USD FY2025 | S-02, S-16 |
+| Subscription / Academic revenue | Chegg Services 734 triệu USD FY2022 | Academic Services Q4 2025: 54,94 triệu USD vs Q4 2024: 127,52 triệu USD | S-01, S-18 |
+| Market cap | 3,17 tỷ USD cuối 2022; 11,64 tỷ USD cuối 2020 | 127,07 triệu USD ngày 13/05/2026 | S-19, S-20 |
+| ARPU | Q4 2024 Subscription Services ARPU giảm 3% YoY | Q4 2024 ARPU decline đã được Chegg công bố; không có đầy đủ FY2025 ARPU | S-12, Chegg FY2024 remarks |
 
-So sánh tốc độ tăng trưởng người dùng / doanh thu trước và sau khi big tech AI ra mắt. Nếu tăng trưởng đã chuyển sang âm (suy giảm), ghi rõ thời điểm chuyển trục.
+**Nhận định**: Doanh thu giảm khoảng 51% từ FY2022 đến FY2025. Market cap giảm còn micro-cap, phản ánh thị trường không còn định giá Chegg như một subscription growth company.
 
-| Giai đoạn | Tốc độ tăng trưởng | Nguồn (URL · ngày) |
+## B4 - Moat strategy
+
+| Loại moat | Mức mạnh trước AI | Bằng chứng |
 |---|---|---|
-| Trước AI shock (___ năm gần nhất) | ___ %/năm | |
-| Sau AI shock (mới nhất) | ___ %/năm (hoặc giảm ___%) | |
-| Thời điểm tăng trưởng bắt đầu đảo chiều | | |
+| Data moat | Mạnh nhưng bị commoditize | Chegg nói có 100+ triệu pieces of content và 150.000 subject matter experts; nhưng ChatGPT/Google AIO tạo câu trả lời mới nhanh hơn |
+| Network effect | Trung bình | Nhiều sinh viên dùng Chegg không tạo network effect trực tiếp như social network |
+| Switching cost | Thấp | Sinh viên có thể hỏi ChatGPT/Google/Quizlet/Photomath mà không mất dữ liệu cá nhân quan trọng |
+| Brand | Mạnh trước AI | Chegg có millions of global subscribers và brand học tập lâu năm (S-10, S-12) |
+| Distribution | Mạnh trước AI, yếu sau AIO | Non-subscriber traffic giảm 49% YoY trong 01/2025 (S-13) |
 
-Nhận định 1-2 câu: case này đã thật sự quay đầu giảm hay chỉ chậm lại?
+- **Moat chủ đạo trước AI**: data/content moat + SEO distribution.
+- **Big tech AI tấn công moat nào**: tấn công cả content và distribution. ChatGPT biến việc "có đáp án" thành commodity; Google AIO cắt click từ search.
+- **Moat còn lại**: trust/verified learning, subject-matter expertise, compliance với education institutions, nhưng cần product repositioning mới khai thác được.
 
-- [...]
+**Nhận định**: Moat của Chegg không đủ chống AI vì nó nằm ở lớp nội dung và traffic, trong khi AI platforms nằm ở lớp interface và distribution.
 
-## B3 — Doanh thu / valuation
+## B5 - Data flywheel + feedback loop
 
-Đào sâu số liệu tài chính có thể truy xuất công khai. Nếu là công ty niêm yết, dễ tìm trong báo cáo quý; nếu là startup tư nhân, có thể chỉ có valuation từ vòng gọi vốn.
+- **Hành động người dùng feed lại sản phẩm**: search câu hỏi, click đáp án, hỏi expert, đặt câu hỏi mới, dùng writing/math tools, dữ liệu từ 3+ tỷ interaction points mỗi tháng theo Chegg FY2024 remarks.
+- **Loop có compounding không**: có một phần. Nội dung và interaction giúp Chegg cải thiện retrieval/personalization, nhưng không tạo network effect mạnh. Một sinh viên mới không tự động kéo thêm nhiều sinh viên mới.
+- **Thu thập feedback systematically**: có. Chegg nói họ dùng A/B testing, RAG, proprietary student-focused data, và data interaction points để personalize.
+- **Big tech AI vô hiệu hoá flywheel ở đâu**: ở entry point. Nếu sinh viên bắt đầu câu hỏi trong ChatGPT/Google AIO, Chegg không nhận được query, click, feedback hay conversion.
 
-| Chỉ số | Trước AI shock | Sau AI shock | Nguồn (URL · ngày) |
-|---|---|---|---|
-| ARR (annual recurring revenue) | | | |
-| MRR (monthly recurring revenue) | | | |
-| Valuation / market cap | | | |
-| ARPU / ARPA (doanh thu trung bình mỗi user) | | | |
-
-Số liệu có công khai không (Có / Không công khai / Chỉ ước tính từ báo chí)? Lý do quan trọng: số liệu càng đáng tin, phân tích càng nặng ký.
-
-- [...]
-
-## B4 — Moat strategy
-
-Sản phẩm trước AI dựa vào hào phòng thủ nào? Liệt kê các loại moat áp dụng, chọn loại moat chủ đạo, rồi xác định loại moat đó có bị big tech AI tấn công không.
-
-| Loại moat | Có / Không có / Mức mạnh | Bằng chứng cụ thể |
-|---|---|---|
-| Data moat (dữ liệu độc quyền) | | |
-| Network effect (hiệu ứng mạng) | | |
-| Switching cost (chi phí chuyển đổi) | | |
-| Brand (thương hiệu) | | |
-| Distribution (kênh phân phối) | | |
-
-- **Moat chủ đạo của sản phẩm trước AI**: [tên moat] — vì [...]
-- **Big tech AI tấn công moat nào**: [tên moat bị tấn công] — bằng cách nào?
-- **Moat nào vẫn còn hiệu quả** (nếu có): [...] — vì sao chưa bị phá?
-
-Nhận định 1-2 câu: cấu trúc moat của case này có chống chịu được áp lực AI không?
-
-- [...]
-
-## B5 — Data flywheel + feedback loop
-
-Sản phẩm có vòng lặp dữ liệu (data flywheel) đủ mạnh để cải thiện sản phẩm theo thời gian không? Phân biệt giữa "có thu thập dữ liệu người dùng" và "có vòng lặp compounding thực sự".
-
-- **Hành động người dùng nào feed lại model / sản phẩm?**: [vd: click, rating, edit, share, undo...]
-- **Loop có compounding không?**: [Có / Không / Một phần]
-  - Nếu có: amplification factor (1 user mới → ___ user kế tiếp) — ước tính dựa trên số liệu nào?
-  - Nếu không: vì sao loop không compounding?
-- **Sản phẩm có thu thập feedback systematically không?**: [Có / Không / Chỉ thu nhưng không dùng]
-- **Big tech AI có vô hiệu hoá flywheel này không?**: [Có / Không / Một phần] — bằng cách nào?
-
-Nhận định 1-2 câu: nếu loop bị big tech AI gỡ bỏ, sản phẩm còn gì để giữ chân người dùng?
-
-- [...]
+**Nhận định**: Chegg có data flywheel, nhưng loop bị đứt ở acquisition layer. Khi Google/ChatGPT nắm interface đầu vào, Chegg không còn đủ lượng query mới để flywheel tiếp tục mạnh như trước.
 
 ---
 
 ## Tổng kiểm tra trước khi chuyển sang file FINAL
 
-| Phần | Đã trả lời chưa? | Có ít nhất 2 bằng chứng? |
+| Phần | Đã trả lời? | Có bằng chứng? |
 |---|---|---|
-| A — Câu 1 — Giả định cũ | / | / |
-| A — Câu 2 — Kỳ vọng người dùng thay đổi | / | / |
-| A — Câu 3 — Fit nào vỡ | / | / |
-| A — Câu 4 — Sản phẩm có cứu được không | / | / |
-| B1 — User base | / | / |
-| B2 — Tốc độ tăng trưởng | / | / |
-| B3 — Doanh thu / valuation | / | / |
-| B4 — Moat strategy | / | / |
-| B5 — Data flywheel + feedback loop | / | / |
-
-Nếu phần nào chưa có ít nhất 2 bằng chứng → quay lại `1-research.md` tìm thêm số liệu.
-
-Sau bước này, chuyển sang `3-FINAL-case-analysis.md` để viết phiên bản nộp.
+| A - Câu 1 - Giả định cũ | Có | Có |
+| A - Câu 2 - Kỳ vọng người dùng thay đổi | Có | Có |
+| A - Câu 3 - Fit nào vỡ | Có | Có |
+| A - Câu 4 - Có cứu được không | Có | Có |
+| B1 - User base | Có | Có |
+| B2 - Tốc độ tăng trưởng | Có | Có |
+| B3 - Doanh thu / valuation | Có | Có |
+| B4 - Moat strategy | Có | Có |
+| B5 - Data flywheel | Có | Có |
